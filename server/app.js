@@ -5,8 +5,10 @@ import logger from 'morgan';
 
 import indexRouter from './routes/index';
 import usersRouter from './routes/users';
+import vars from './config/vars';
 
-var app = express();
+console.log('ENV', vars);
+const app = express();
 
 app.use(logger('dev'));
 app.use(express.json());

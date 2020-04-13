@@ -16,6 +16,6 @@ For stuff like heroku deployment, aws elasticbeanstalk, run `npm run start`
 
 ### Other scripts
 
-* `transpile` - convert es6 and beyond code to es5 to a folder named `dist-server`
+* `transpile` - convert es6 and beyond code to es5 to a folder named `dist`
 * `clean` - delete transpiled folder
 * `build` - clean and transpile
